@@ -5,7 +5,7 @@ public class ImpuestoVehiculo {
 
     //Atributos
      private int PrecioVehiculo;
-     private int Impuesto;
+     private double Impuesto;
      private int Años;
      private String Matricula;
 
@@ -50,12 +50,12 @@ public class ImpuestoVehiculo {
         return Matricula;
     }
 
-    public void setImpuesto(int pImpuesto)
+    public void setImpuesto(double pImpuesto)
     {
         this.Impuesto = pImpuesto;
     }
 
-    public int getImpuesto()
+    public double getImpuesto()
     {
         return Impuesto;
     }
